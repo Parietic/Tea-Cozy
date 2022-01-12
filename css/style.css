@@ -65,12 +65,13 @@ header img {
 
 header ul {
 	display: block flex;
-	list-style-type: none;
-	margin-right: 10px;
-}
+	column-gap: 1em;
+	justify-content: space-around;
+	align-content: space-around;
 
-header li {
-	margin-left: 1em;
+	list-style-type: none;
+	margin: 0 2em;
+	padding: 0;
 }
 
 header a {
@@ -142,4 +143,15 @@ header a {
 #copyright {
 	text-align: left;
 	margin-left: 20px;
+}
+
+/* Mobile fixes */
+@media only screen and (max-width: 600px) {
+	header img {
+		display: none;
+	}
+
+	header nav {
+		width: 100%;
+	}
 }
