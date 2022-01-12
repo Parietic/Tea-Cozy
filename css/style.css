@@ -109,7 +109,8 @@ header a {
 /* Location style */
 #locations {
 	background-image: url('../resources/img-locations-background.jpg');
-	height: 500px;
+	min-height: 500px;
+	padding: 2em;
 
 	row-gap: 15px;
 }
@@ -153,5 +154,9 @@ header a {
 
 	header nav {
 		width: 100%;
+	}
+
+	#locations {
+		padding: 2em 0;
 	}
 }
