@@ -1,0 +1,75 @@
+/* Universal styles */
+html {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	text-align: center;
+
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+
+	box-sizing: border-box;
+}
+
+/* Offset from fixed header */
+body {
+	margin-top: 69px;
+}
+
+/* Header style */
+header {
+	height: 69px;
+	width: 100%;
+
+	border-bottom: 1px solid seashell;
+	background-color: black;
+
+	position: fixed;
+	top: 0;
+	z-index: 1;
+
+	display: block flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+header ul {
+	display: block flex;
+	list-style-type: none;
+	margin-right: 10px;
+}
+
+header li {
+	margin-left: 1em;
+}
+
+header a {
+	color: inherit;
+}
+
+/* Mission style */
+
+#mission {
+	background-image: url('../resources/img-mission-background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 700px;
+
+	display: block flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#mission h2,
+#mission h4 {
+	background-color: black;
+	margin: 0;
+	padding: 10px;
+}
