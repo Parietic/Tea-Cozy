@@ -11,9 +11,19 @@ html {
 	box-sizing: border-box;
 }
 
-/* Offset from fixed header */
 body {
-	margin-top: 69px;
+	margin-top: 69px; /* Offset from fixed header */
+}
+
+.container {
+	max-width: 1000px;
+	margin: 40px auto;
+
+	display: block flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 20px;
+	column-gap: 20px;
 }
 
 /* Header style */
@@ -72,4 +82,16 @@ header a {
 	background-color: black;
 	margin: 0;
 	padding: 10px;
+}
+
+/* Tea of the month section */
+
+.tea_card h4 {
+	margin: 0;
+	margin-top: 10px;
+}
+
+.tea_card img {
+	height: 200px;
+	width: 300px;
 }
