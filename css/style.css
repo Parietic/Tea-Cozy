@@ -133,3 +133,13 @@ header a {
 	opacity: 1;
 	margin: 30px auto;
 }
+
+/* Footer style */
+#footer {
+	height: 200px;
+}
+
+#copyright {
+	text-align: left;
+	margin-left: 20px;
+}
