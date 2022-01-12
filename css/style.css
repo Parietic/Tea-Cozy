@@ -19,7 +19,7 @@ body {
 	max-width: 1000px;
 	margin: 0 auto;
 
-	display: block flex;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 
@@ -36,7 +36,7 @@ body {
 	max-width: 1200px;
 	margin: 0 auto;
 
-	display: block flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
@@ -53,7 +53,7 @@ header {
 	top: 0;
 	z-index: 1;
 
-	display: block flex;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -64,7 +64,7 @@ header img {
 }
 
 header ul {
-	display: block flex;
+	display: flex;
 	column-gap: 1em;
 	justify-content: space-around;
 	align-content: space-around;
